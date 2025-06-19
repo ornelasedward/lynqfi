@@ -12,9 +12,9 @@ export const ParticleAuthkit = ({ children }: React.PropsWithChildren) => {
   return (
     <AuthCoreContextProvider
       options={{
-        projectId: process.env.NEXT_PARTICLE_NETWORK_PUBLIC_PROJECT_ID!,
-        clientKey: process.env.NEXT_PARTICLE_NETWORK_PUBLIC_CLIENT_KEY!,
-        appId: process.env.NEXT_PARTICLE_NETWORK_PUBLIC_APP_ID!,
+        projectId: process.env.NEXT_PUBLIC_PARTICLE_NETWORK_PROJECT_ID!,
+        clientKey: process.env.NEXT_PUBLIC_PARTICLE_NETWORK_CLIENT_KEY!,
+        appId: process.env.NEXT_PUBLIC_PARTICLE_NETWORK_APP_ID!,
         authTypes: [AuthType.email, AuthType.google],
         themeType: "dark",
         chains: [mainnet, polygon],
