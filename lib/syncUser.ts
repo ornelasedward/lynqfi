@@ -1,7 +1,7 @@
 import { supabase } from './supabase'
 
 export async function syncUser(walletAddress: string) {
-  const { data, error } = await supabase
+  const { data } = await supabase
     .from('users')
     .select('id')
     .eq('wallet_address', walletAddress)
