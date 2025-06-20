@@ -69,7 +69,7 @@ export const CTA = () => {
             onClick={() => router.push("/signin")}
             className="flex items-center gap-2"
           >
-            Get Started – It's Free
+            Get Started – It&apos;s Free
             <FiArrowRight />
           </SplashButton>
           <GhostButton

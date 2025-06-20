@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import { SplashButton } from "@/components/landing/buttons/SplashButton";
+
 import { GhostButton } from "@/components/landing/buttons/GhostButton";
 import { useRouter } from "next/navigation";
 import { FiArrowRight } from "react-icons/fi";

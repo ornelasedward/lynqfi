@@ -1,14 +1,11 @@
 "use client";
 import { MaxWidthWrapper } from "../utils/MaxWidthWrapper";
 import { motion } from "framer-motion";
-import { SplashButton } from "../buttons/SplashButton";
-import { GhostButton } from "../buttons/GhostButton";
-import { GlowingChip } from "../utils/GlowingChip";
-import { useRouter } from "next/navigation";
+
 import { LampContainer } from "../LampContainer";
 
 export const Content = () => {
-  const router = useRouter();
+  
   return (
     <MaxWidthWrapper className="relative z-20 flex flex-col items-center justify-center">
       <LampContainer>
